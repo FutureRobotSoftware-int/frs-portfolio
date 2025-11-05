@@ -1,0 +1,26 @@
+.project-detail {
+  overflow: hidden;
+}
+
+.project-detail-cover {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  display: block;
+}
+
+.project-detail-body {
+  padding: 1.25rem;
+  color: #222;
+  line-height: 1.7;
+}
+
+.project-title {
+  margin: 0.2rem 0 0;
+  font-family: var(--font-title);
+}
+
+.project-summary {
+  margin: 0.25rem 0 1rem;
+  opacity: 0.9;
+}

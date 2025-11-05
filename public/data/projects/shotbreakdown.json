@@ -1,0 +1,49 @@
+{
+  "slug": "shotbreakdown",
+  "title": "ShotBreakdown — Video Analytics Platform",
+  "summary": "Basketball analytics app with synced video, real-time filtering, and on-court performance insights.",
+  "client": "Coach Nick — BBallBreakdown (900K+ subscribers)",
+  "role": "Tech Lead & Developer",
+  "service": "Custom Software Development",
+  "tech": [
+    "Vue",
+    "Tailwind",
+    "ECharts",
+    "Video.js",
+    "Google Identity Services"
+  ],
+  "tags": ["Analytics", "Video", "Vue", "Sports Tech"],
+  "cover": "/images/shotbreakdown-cover.jpg",
+  "order": 1,
+  "status": "Stage 3 Development",
+  "highlights": [
+    "Synced video playback with analytics overlays",
+    "Role-based access for coaches and staff",
+    "Mobile-first UI for courtside workflows"
+  ],
+  "demo": "https://example.com",
+  "content": [
+    { "type": "heading", "text": "Summary" },
+    {
+      "type": "paragraph",
+      "text": "ShotBreakdown replaces manual spreadsheets with a fast, visual analytics platform for player development. Coaches can filter by shooting context, compare outcomes, and review synced video—right on the court."
+    },
+    { "type": "heading", "text": "Scope & Key Deliverables" },
+    {
+      "type": "list",
+      "items": [
+        "Data model for shot types, zones, and contexts",
+        "Synced video playback for frame-by-frame breakdown",
+        "Google Sign-In + role-based access",
+        "Mobile/tablet UX for courtside use",
+        "Interactive charts for efficiency trends"
+      ]
+    },
+    { "type": "heading", "text": "Technical Overview" },
+    {
+      "type": "paragraph",
+      "text": "Vue reactivity + cloud-hosted video enables near-instant review with minimal backend load. TailwindCSS ensures responsive UI while Google Identity Services secures coach access. ECharts and Chart.js drive analytics."
+    },
+    { "type": "link", "href": "https://example.com", "label": "Demo Video" }
+  ]
+}
