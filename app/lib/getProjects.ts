@@ -12,12 +12,23 @@ export async function getProjectSlugs(): Promise<string[]> {
 }
 
 export async function getProjectData(slug: string) {
+  if (!slug) {
+    console.warn("⚠️ getProjectData called without slug. Returning null.");
+    return null;
+  }
+
   const filePath = path.join(PROJECTS_DIR, `${slug}.json`);
   const raw = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(raw);
+
+  const data = JSON.parse(raw);
+  return {
+    ...data,
+    slug,
+  };
 }
 
 export async function getAllProjects() {
   const slugs = await getProjectSlugs();
-  return slugs.map((slug) => getProjectData(slug));
+  const projects = await Promise.all(slugs.map((slug) => getProjectData(slug)));
+  return projects.filter(Boolean);
 }

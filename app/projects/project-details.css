@@ -24,3 +24,82 @@
   margin: 0.25rem 0 1rem;
   opacity: 0.9;
 }
+
+.project-content {
+  margin-top: 2rem;
+  color: #111;
+  line-height: 1.75;
+  max-width: 70ch;
+}
+
+.section-heading {
+  font-family: var(--font-title);
+  margin: 2rem 0 0.75rem;
+  font-size: 1.45rem;
+  color: #0d2a3d;
+}
+
+.section-paragraph {
+  margin: 0 0 1rem;
+  opacity: 0.95;
+  font-size: 1.05rem;
+}
+
+.section-list {
+  margin: 0 0 1.25rem;
+  padding-left: 1.25rem;
+  list-style: none;
+}
+
+.section-list li {
+  margin: 0.4rem 0;
+  position: relative;
+  padding-left: 0.9rem;
+}
+
+.section-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+.section-link a {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.project-highlights {
+  background: #fffaf0;
+  border-left: 4px solid var(--accent);
+  padding: 1rem 1.25rem;
+  border-radius: 6px;
+  margin: 1.5rem 0 2rem;
+}
+
+.project-highlights h3 {
+  margin-top: 0;
+  font-family: var(--font-title);
+  margin-bottom: 0.5rem;
+  color: #0d2a3d;
+}
+
+.project-highlights ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  list-style: none;
+}
+
+.project-highlights li {
+  margin: 0.35rem 0;
+  position: relative;
+}
+
+.project-highlights li::before {
+  content: "✔";
+  color: var(--accent);
+  margin-right: 0.4rem;
+  font-size: 0.85rem;
+  position: absolute;
+  left: -1rem;
+}

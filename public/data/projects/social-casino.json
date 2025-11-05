@@ -1,0 +1,95 @@
+{
+  "slug": "social-casino",
+  "title": "Social Casino Games Framework",
+  "summary": "Unity-based foundation enabling fast launch of multiple social casino apps under a shared architecture — powered by external JSON configuration, unified analytics, and a custom WebView communication layer.",
+  "client": "Social Ad Signals — Global AdTech & high-scale acquisition operations",
+  "role": "Tech Lead & Developer",
+  "service": "Joint Development / Co-Development",
+  "tech": [
+    "Unity",
+    "UniWebView",
+    "Firebase Analytics",
+    "AppsFlyer SDK",
+    "Facebook SDK",
+    "Sentry",
+    "Google Cloud"
+  ],
+  "cover": "/images/social-casino-cover.jpg",
+  "highlights": [
+    "Shared Unity engine supports multiple social casino titles",
+    "JSON-driven configuration eliminates rebuilds",
+    "Bidirectional JS ↔ Unity communication layer",
+    "Unified attribution pipeline (Google + Facebook)",
+    "Full analytics and crash monitoring integration"
+  ],
+  "demo": "https://example.com",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Summary"
+    },
+    {
+      "type": "paragraph",
+      "text": "A reusable Unity-based foundation built for Social Ad Signals to deploy multiple social casino games with a common architecture. Each title remains independent while sharing analytics, attribution, UI, and launch behaviors — all controlled through JSON configuration. FRS continues to release new apps on this platform."
+    },
+    {
+      "type": "heading",
+      "text": "Client"
+    },
+    {
+      "type": "paragraph",
+      "text": "Social Ad Signals is an international AdTech company focused on high-volume performance marketing, mobile UA, and analytics-driven ROI optimization across diverse global markets."
+    },
+    {
+      "type": "heading",
+      "text": "Scope & Key Deliverables"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Reusable Unity framework powering multiple social casino apps",
+        "Launcher and gallery apps embedding games via WebView",
+        "Custom WebViewFactory layer with bidirectional JS ↔ Unity bridge",
+        "Unified Google Play + Facebook referrer attribution pipeline",
+        "Complete Firebase / AppsFlyer / Facebook SDK / Sentry integration",
+        "External JSON-driven configuration enables instant content updates"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Tech Stack"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Engine / Runtime: Unity (mobile), UniWebView",
+        "JS ↔ Unity Bridge: WebViewFactory abstraction + gesture navigation",
+        "Attribution / Marketing: Google Play Referrer, Facebook encrypted payloads, AppsFlyer optional",
+        "Analytics / Monitoring: Firebase, AppsFlyer, Facebook SDK, Sentry",
+        "Config / Content: JSON-driven UI + metadata",
+        "Deployment: Google Cloud VMs + FTP delivery"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Technical Overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "The architecture enables rapid deployment of new casino variants by externalizing configuration away from the Unity build. The WebViewFactory manages all in-app browsing with analytics hooks and runtime JS injection — ensuring consistent event tracking and feature control across the portfolio."
+    },
+    {
+      "type": "paragraph",
+      "text": "The unified attribution pipeline merges Google Play and Facebook install metadata into every WebView session, ensuring cross-channel campaign tracking without relying entirely on third-party SDKs."
+    },
+    {
+      "type": "heading",
+      "text": "Links"
+    },
+    {
+      "type": "link",
+      "href": "https://example.com",
+      "label": "Video Playlist"
+    }
+  ]
+}

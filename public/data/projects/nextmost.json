@@ -1,0 +1,101 @@
+{
+  "slug": "nextmost",
+  "title": "Nextmost — LLM Evaluation & Benchmarking Platform",
+  "summary": "Full-stack MVP designed to evaluate how Large Language Models position products for different customer personas — transforming subjective product messaging into structured, data-driven insights.",
+  "client": "Armando Kirwin — Creative technologist & co-founder of Artie (acquired 2024)",
+  "role": "Tech Lead & Developer",
+  "service": "MVP Development & Rapid Prototyping",
+  "tech": [
+    "Next.js",
+    "FastAPI",
+    "PostgreSQL",
+    "Tremor UI",
+    "Chart.js",
+    "AWS EC2",
+    "Nginx",
+    "Systemd"
+  ],
+  "cover": "/images/nextmost-cover.jpg",
+  "highlights": [
+    "Evaluates multiple LLMs across simulated personas",
+    "Dashboard + command-driven console MVPs",
+    "Structured scoring and analytics for product messaging",
+    "Full AWS deployment with secure delivery",
+    "Backend architecture built around LLM prompt orchestration"
+  ],
+  "demo": "https://example.com",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Summary"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nextmost evaluates how different Large Language Models describe, position, and recommend products for simulated customer personas. It replaces intuition-based messaging decisions with analytics and structured scoring — guiding strategy and identifying which models perform best in specific contexts."
+    },
+    {
+      "type": "heading",
+      "text": "Client"
+    },
+    {
+      "type": "paragraph",
+      "text": "Armando Kirwin, creative technologist with projects showcased at Cannes Film Festival, Venice Biennale, and SXSW. Co-founder of Artie (acquired 2024)."
+    },
+    {
+      "type": "heading",
+      "text": "Scope & Key Deliverables"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Designed and developed two MVP versions to validate core capabilities",
+        "Dashboard (v1) — Interactive analytics for persona-based evaluation",
+        "Console Interface (v2) — Command-driven web app for rapid simulation",
+        "Backend architecture for prompt orchestration and scoring",
+        "Structured PostgreSQL schema for analytics and comparison",
+        "Secure authentication and environment-based configuration",
+        "Full AWS deployment with HTTPS, logging and automation"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Tech Stack"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Frontend (v1): Next.js, Tremor UI, ECharts, Chart.js",
+        "Frontend (v2): Static console web client (HTML/CSS/JS)",
+        "Backend: FastAPI, Uvicorn, OpenRouter API",
+        "Database: PostgreSQL (structured analytics schema)",
+        "Infra: AWS EC2 + Nginx + Certbot (SSL) + systemd"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Technical Overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nextmost unifies LLM orchestration and analytics visualization into a single simulation platform. FastAPI manages persona definitions, prompt templates, and multi-model requests via OpenRouter. Simulation outputs flow into PostgreSQL, powering visual comparisons and strategy insights."
+    },
+    {
+      "type": "paragraph",
+      "text": "Two complementary frontends connect to the same API — a Next.js dashboard for visual analysis, and a lightweight console for rapid experimentation. Deployed over AWS EC2 with secure HTTPS, automated services, access control, and monitoring — ensuring stability during R&D scaling."
+    },
+    {
+      "type": "heading",
+      "text": "Links"
+    },
+    {
+      "type": "link",
+      "href": "https://example.com",
+      "label": "Dashboard Demo"
+    },
+    {
+      "type": "link",
+      "href": "https://example.com",
+      "label": "Console Demo"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "bot-slapper",
+  "title": "Amarillo’s Bot Slapper — Steam-Integrated Content Pipeline",
+  "summary": "Unity-powered pipeline enabling rapid creation and publishing of collectible in-game bots — automating 3D imports, prefab generation, Steam Inventory integration, and gallery publishing.",
+  "client": "Amarillo’s Art — Creator of the viral Steam title Bot Slapper",
+  "role": "Tech Lead & Developer",
+  "service": "Post-Launch & Maintenance Support",
+  "tech": [
+    "Unity",
+    "Magica Cloth",
+    "Python",
+    "Steamworks",
+    "ScriptableObjects",
+    "FTP/WinSCP"
+  ],
+  "cover": "/images/bot-slapper-cover.jpg",
+  "highlights": [
+    "Automated content pipeline for scalable bot releases",
+    "Unity editor tooling for physics, shaders, and prefab generation",
+    "Fully integrated with Steamworks Inventory Service",
+    "Desktop JSON generator for inventory definitions",
+    "Live gallery website synced to Steam data"
+  ],
+  "demo": "https://example.com",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Summary"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bot Slapper’s content pipeline streamlines the creation, physics setup, Steam integration, and publishing of new bot collections — enabling Amarillo’s Art to ship themed cosmetic drops rapidly and consistently. FRS also maintains the companion Bot Gallery Website synchronized with Steam inventory data."
+    },
+    {
+      "type": "heading",
+      "text": "Client"
+    },
+    {
+      "type": "paragraph",
+      "text": "Amarillo’s Art — Bot Slapper achieved a peak concurrency of 113,000 players with 8K+ daily active players and a strong, engaged community of 4,000+ followers on Steam."
+    },
+    {
+      "type": "heading",
+      "text": "Scope & Key Deliverables"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Unity architecture standardizing bot import → prefab → deployment workflow",
+        "Custom Unity Editor tools to automate physics, recolors, render setup, and variant creation",
+        "Python desktop JSON generator to manage Steam inventory metadata",
+        "Steamworks Inventory Service integration mapped to ScriptableObjects",
+        "Image capture + publishing flow to live gallery website via FTP",
+        "Documentation and delivery process enabling repeatable content drops"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Tech Stack"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Game/Editor: Unity (C#), ScriptableObjects, Magica Cloth",
+        "Content Workflow: Blender, Maya, 3ds Max FBX import pipeline",
+        "Steam Integration: Inventory Service + JSON-based schemas",
+        "Automation: Python 3 + Tkinter (inventory configuration)",
+        "Web Delivery: HTML/JS submodule + FTP + WinSCP"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Technical Overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "The pipeline bridges creative asset production, prefab setup, inventory metadata management, and web publishing. Automated Unity tooling removes repetitive tasks and ensures consistent physics, metadata, and visuals across releases."
+    },
+    {
+      "type": "paragraph",
+      "text": "A Python JSON generator manages Steam item definitions and synchronizes between development and live environments. Asset exports, screenshots, and config metadata are delivered to the gallery site and QA environments through FTP automation."
+    },
+    {
+      "type": "heading",
+      "text": "Links"
+    },
+    {
+      "type": "link",
+      "href": "https://example.com",
+      "label": "Bot Slapper Global Stats"
+    },
+    {
+      "type": "link",
+      "href": "https://example.com",
+      "label": "Gameplay Video (NSFW Warning)"
+    },
+    {
+      "type": "link",
+      "href": "https://example.com",
+      "label": "Bot Gallery Website (NSFW Content Warning)"
+    }
+  ]
+}

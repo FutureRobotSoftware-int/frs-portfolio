@@ -1,7 +1,7 @@
 {
   "slug": "shotbreakdown",
   "title": "ShotBreakdown — Video Analytics Platform",
-  "summary": "Basketball analytics app with synced video, real-time filtering, and on-court performance insights.",
+  "summary": "Web tool designed to modernize how basketball coaches evaluate shooting performance — replacing spreadsheets with a fast, visual, and interactive analytics system.",
   "client": "Coach Nick — BBallBreakdown (900K+ subscribers)",
   "role": "Tech Lead & Developer",
   "service": "Custom Software Development",
@@ -12,38 +12,78 @@
     "Video.js",
     "Google Identity Services"
   ],
-  "tags": ["Analytics", "Video", "Vue", "Sports Tech"],
   "cover": "/images/shotbreakdown-cover.jpg",
-  "order": 1,
-  "status": "Stage 3 Development",
   "highlights": [
-    "Synced video playback with analytics overlays",
-    "Role-based access for coaches and staff",
-    "Mobile-first UI for courtside workflows"
+    "Replaces spreadsheets with real-time analytics",
+    "Synced video playback for contextual shot review",
+    "Optimized for courtside use (mobile-first)",
+    "Uses secure auth with role-based access",
+    "Built for a growing sports analytics startup"
   ],
   "demo": "https://example.com",
   "content": [
-    { "type": "heading", "text": "Summary" },
+    {
+      "type": "heading",
+      "text": "Summary"
+    },
     {
       "type": "paragraph",
-      "text": "ShotBreakdown replaces manual spreadsheets with a fast, visual analytics platform for player development. Coaches can filter by shooting context, compare outcomes, and review synced video—right on the court."
+      "text": "ShotBreakdown enables coaches to quickly identify strengths, inefficiencies, and tactical improvements during training sessions and player development — directly from synced video and interactive stats."
     },
-    { "type": "heading", "text": "Scope & Key Deliverables" },
+    {
+      "type": "heading",
+      "text": "Client"
+    },
+    {
+      "type": "paragraph",
+      "text": "Coach Nick — BBallBreakdown, an international basketball analyst and educator with over 900K YouTube subscribers and collaborations with NBA coaches and players."
+    },
+    {
+      "type": "heading",
+      "text": "Scope & Key Deliverables"
+    },
     {
       "type": "list",
       "items": [
-        "Data model for shot types, zones, and contexts",
-        "Synced video playback for frame-by-frame breakdown",
-        "Google Sign-In + role-based access",
-        "Mobile/tablet UX for courtside use",
-        "Interactive charts for efficiency trends"
+        "Full web-based analytics system replacing spreadsheet workflows",
+        "Dynamic model for real-time shot tracking and filtering",
+        "Video-synchronized breakdown for frame-by-frame review",
+        "Secure Google Sign-In + role-based access control",
+        "Mobile/tablet UX optimized for live courtside analysis",
+        "Interactive charts showing efficiency trends & patterns"
       ]
     },
-    { "type": "heading", "text": "Technical Overview" },
+    {
+      "type": "heading",
+      "text": "Tech Stack"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Frontend: Vue.js",
+        "UI / Design: Tailwind CSS",
+        "Analytics: ECharts, Chart.js",
+        "Video System: Video.js",
+        "Auth: Google Identity Services",
+        "Delivery: Netlify CDN + Google Cloud video assets"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Technical Overview"
+    },
     {
       "type": "paragraph",
-      "text": "Vue reactivity + cloud-hosted video enables near-instant review with minimal backend load. TailwindCSS ensures responsive UI while Google Identity Services secures coach access. ECharts and Chart.js drive analytics."
+      "text": "The platform combines Vue's reactivity with cloud-based video hosting to deliver instant insights with minimal backend load. Each shot record links to a precise video segment for contextual breakdown. Secure coach access, mobile-first UX, and high-performance charting ensure on-court decision-making is data-driven and fast."
     },
-    { "type": "link", "href": "https://example.com", "label": "Demo Video" }
+    {
+      "type": "heading",
+      "text": "Links"
+    },
+    {
+      "type": "link",
+      "href": "https://example.com",
+      "label": "Video Demo"
+    }
   ]
 }
