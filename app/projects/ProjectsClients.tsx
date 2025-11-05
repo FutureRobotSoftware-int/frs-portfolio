@@ -41,21 +41,25 @@ export default function ProjectsClient({
       <p style={{ opacity: 0.9, marginBottom: "1rem" }}>Filter by technology</p>
 
       <div className="tech-filter">
-        {allTech.map((tech) => (
-          <button
-            key={tech}
-            className={`tech-chip ${activeTech.includes(tech) ? "active" : ""}`}
-            onClick={() =>
-              setActiveTech((prev) =>
-                prev.includes(tech)
-                  ? prev.filter((t) => t !== tech)
-                  : [...prev, tech]
-              )
-            }
-            title={tech}
-            dangerouslySetInnerHTML={{ __html: getTechIcon(tech, 18) }}
-          />
-        ))}
+        {allTech
+          .filter((tech) => Boolean(getTechIcon(tech, 18))) // ✅ solo techs con icon
+          .map((tech) => (
+            <button
+              key={tech}
+              className={`tech-chip ${
+                activeTech.includes(tech) ? "active" : ""
+              }`}
+              onClick={() =>
+                setActiveTech((prev) =>
+                  prev.includes(tech)
+                    ? prev.filter((t) => t !== tech)
+                    : [...prev, tech]
+                )
+              }
+              title={tech}
+              dangerouslySetInnerHTML={{ __html: getTechIcon(tech, 18) }}
+            />
+          ))}
       </div>
 
       <div className="carousel">
