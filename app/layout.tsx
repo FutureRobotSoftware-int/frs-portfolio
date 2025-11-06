@@ -14,10 +14,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Google Fonts */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600;700&family=Inter:wght@300;400;500&display=swap"
+          href="https://db.onlinewebfonts.com/c/7f7a496bb8699739f02b105ca8318391?family=CCGibbonsGazette"
           rel="stylesheet"
         />
       </head>

@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import { getTechIcon } from "./techicons";
+import { TechIcon } from "./techicons";
 import "@/app/projects/projects.css";
 
 type ProjectData = {
@@ -42,7 +42,19 @@ export default function ProjectsClient({
 
       <div className="tech-filter">
         {allTech
-          .filter((tech) => Boolean(getTechIcon(tech, 18))) // ✅ solo techs con icon
+          .filter((tech) => {
+            // Check if this tech has an icon by testing if TechIcon returns something
+            const key = tech.toLowerCase();
+            const iconMap = {
+              unity: true,
+              vue: true,
+              "next.js": true,
+              fastapi: true,
+              postgres: true,
+              postgresql: true,
+            };
+            return key in iconMap;
+          })
           .map((tech) => (
             <button
               key={tech}
@@ -57,8 +69,9 @@ export default function ProjectsClient({
                 )
               }
               title={tech}
-              dangerouslySetInnerHTML={{ __html: getTechIcon(tech, 18) }}
-            />
+            >
+              <TechIcon name={tech} size={18} />
+            </button>
           ))}
       </div>
 
@@ -80,10 +93,9 @@ export default function ProjectsClient({
 
               <div style={{ display: "flex", gap: ".35rem" }}>
                 {(p.tech ?? []).slice(0, 4).map((t) => (
-                  <span
-                    key={t}
-                    dangerouslySetInnerHTML={{ __html: getTechIcon(t, 16) }}
-                  />
+                  <span key={t}>
+                    <TechIcon name={t} size={16} />
+                  </span>
                 ))}
               </div>
 
